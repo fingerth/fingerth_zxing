@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--android:background="@color/able_theme_color"-->
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/my_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="@color/able_theme_color"-->
+        <!--app:layout_collapseMode="pin"-->
+        <!--app:navigationIcon="@drawable/btn_head_left"-->
+        <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+        <!--app:theme="@style/ToolBarStyle">-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/my_toolbar"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:background="@drawable/drawable_whitef0_4round"-->
+        <!--android:orientation="vertical">-->
+
+        <!--&lt;!&ndash;二維碼&ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/drawable_white_2round"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/qr_code"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="25sp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/qr_code2"-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_gravity="center" />-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--&lt;!&ndash;一維碼&ndash;&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/qr_code1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="15dp" />-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
